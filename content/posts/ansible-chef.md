@@ -1,9 +1,10 @@
 ---
 title: "Ansible vs. Chef: A Comparison of Automation Tools"
-_build:
-  render: never
-  list: never
-  publishResources: false
+date: 2024-09-14T09:21:04+10:00
+toc: false
+images:
+tags: 
+  - untagged
 ---
 
 

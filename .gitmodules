@@ -5,3 +5,9 @@
 	path = themes/hermit-v2
 	url = https://github.com/1bl4z3r/hermit-V2
 	branch = main
+[submodule "themes/cayman-hugo-theme"]
+	path = themes/cayman-hugo-theme
+	url = https://github.com/zwbetz-gh/cayman-hugo-theme.git
+[submodule "themes/compose"]
+	path = themes/compose
+	url = https://github.com/onweru/compose.git

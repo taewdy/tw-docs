@@ -1,4 +1,4 @@
 baseURL = 'https://tw-docs.pages.dev/'
 languageCode = 'en-us'
 title = 'docs'
-theme = 'hermit-v2'
+theme = 'compose'
