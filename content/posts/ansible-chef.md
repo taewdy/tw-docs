@@ -1,7 +1,11 @@
-+++
-title = 'Ansible vs. Chef: A Comparison of Automation Tools'
-date = 2024-09-14T08:13:56+10:00
-+++
+---
+title: "Ansible vs. Chef: A Comparison of Automation Tools"
+_build:
+  render: never
+  list: never
+  publishResources: false
+---
+
 
 **Ansible** and **Chef** are popular automation tools used for configuration management, provisioning, and deployment of applications and infrastructure. They help system administrators and DevOps engineers automate repetitive tasks, manage complex environments, and ensure consistency across multiple servers.
 
