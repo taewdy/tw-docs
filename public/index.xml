@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>docs</title>
-    <link>http://localhost:1313/</link>
+    <link>https://tw-docs.pages.dev/</link>
     <description>Recent content on docs</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 14 Sep 2024 09:21:04 +1000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://tw-docs.pages.dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ansible vs. Chef: A Comparison of Automation Tools</title>
-      <link>http://localhost:1313/posts/ansible-chef/</link>
+      <link>https://tw-docs.pages.dev/posts/ansible-chef/</link>
       <pubDate>Sat, 14 Sep 2024 09:21:04 +1000</pubDate>
-      <guid>http://localhost:1313/posts/ansible-chef/</guid>
+      <guid>https://tw-docs.pages.dev/posts/ansible-chef/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Ansible&lt;/strong&gt; and &lt;strong&gt;Chef&lt;/strong&gt; are popular automation tools used for configuration management, provisioning, and deployment of applications and infrastructure. They help system administrators and DevOps engineers automate repetitive tasks, manage complex environments, and ensure consistency across multiple servers.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;ansible&#34; class=link_owner&gt;&#xA;  &lt;strong&gt;Ansible&lt;/strong&gt;&#xA;  &lt;a href=&#34;#ansible&#34; class=&#34;link icon&#34;&gt;&#xA;    &lt;svg&gt;&#xA;      &lt;use xlink:href=&#34;#anchor-link&#34;&gt;&lt;/use&gt;&#xA;    &lt;/svg&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Overview:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Agentless Architecture:&lt;/strong&gt; Ansible operates without needing any software installed on the target machines (nodes). It uses SSH for communication.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Playbooks:&lt;/strong&gt; Automation tasks are defined in YAML files called playbooks, which are easy to read and write.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Modules:&lt;/strong&gt; Ansible has a vast collection of modules that perform specific tasks (e.g., installing packages, managing services).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Use Cases:&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
   </channel>
