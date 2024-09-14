@@ -1,5 +1,5 @@
 +++
-title = 'Chef Ruby'
+title = 'Chef Essentials: Understanding Ruby Blocks and Yield'
 date = 2024-09-15T08:15:53+10:00
 +++
 
