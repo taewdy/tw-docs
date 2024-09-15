@@ -1,11 +1,11 @@
-+++
-title = 'Chef Essentials: Understanding Ruby Blocks and Yield'
-date = 2024-09-15T08:15:53+10:00
+---
+title: "Chef Essentials: Understanding Ruby Blocks and Yield"
+date: 2024-09-15T08:15:53+10:00
 toc: false
 images:
 tags: 
   - untagged
-+++
+---
 
 Using `yield` in Ruby is conceptually similar to passing a function as a parameter in other programming languages. It allows a method to execute code (a block) that is provided at the time of the method call, enabling dynamic and flexible behavior.
 

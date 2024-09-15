@@ -6,8 +6,15 @@
     <description>Recent content in Untagged on docs</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 14 Sep 2024 09:21:04 +1000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Sep 2024 08:15:53 +1000</lastBuildDate>
     <atom:link href="https://tw-docs.pages.dev/tags/untagged/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chef Essentials: Understanding Ruby Blocks and Yield</title>
+      <link>https://tw-docs.pages.dev/posts/chef-ruby/</link>
+      <pubDate>Sun, 15 Sep 2024 08:15:53 +1000</pubDate>
+      <guid>https://tw-docs.pages.dev/posts/chef-ruby/</guid>
+      <description>&lt;p&gt;Using &lt;code&gt;yield&lt;/code&gt; in Ruby is conceptually similar to passing a function as a parameter in other programming languages. It allows a method to execute code (a block) that is provided at the time of the method call, enabling dynamic and flexible behavior.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;understanding-yield-and-blocks-in-ruby&#34; class=link_owner&gt;&#xA;  &lt;strong&gt;Understanding &lt;code&gt;yield&lt;/code&gt; and Blocks in Ruby&lt;/strong&gt;&#xA;  &lt;a href=&#34;#understanding-yield-and-blocks-in-ruby&#34; class=&#34;link icon&#34;&gt;&#xA;    &lt;svg&gt;&#xA;      &lt;use xlink:href=&#34;#anchor-link&#34;&gt;&lt;/use&gt;&#xA;    &lt;/svg&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;In Ruby, methods can receive a block of code without explicitly defining a parameter for it. The &lt;code&gt;yield&lt;/code&gt; keyword is used within a method to transfer control to this block. The block can receive parameters from the method and can be executed multiple times from within the method.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ansible vs. Chef: A Comparison of Automation Tools</title>
       <link>https://tw-docs.pages.dev/posts/ansible-chef/</link>
