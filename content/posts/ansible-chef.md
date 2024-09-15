@@ -857,5 +857,3 @@ knife ssh IPADDRESS -m -x chef -P PWD 'sudo chef-client'
 By automating `chef-client` runs, your fleet of nodes will always be up to date with the latest configurations, making management more efficient and reducing the risk of configuration drift.
 
 ---
-
-Feel free to incorporate this into your notes!
