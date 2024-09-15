@@ -800,3 +800,62 @@ Let's consider the full workflow to spin up 200 CentOS virtual machines running 
 ### **Conclusion**
 
 Chef's ability to provision and configure infrastructure makes it a powerful tool for managing large-scale deployments. By automating both the creation of virtual machines and the installation of the Chef client, you can efficiently spin up new resources and ensure they are configured consistently.
+
+## **How to Use Chef to Manage System
+
+---
+
+## Running Chef Client in Local Mode
+
+To run the Chef client in local mode and apply a recipe to your local system, use the following command:
+
+```bash
+chef-client -z -r "recipe[myapache]"
+```
+
+- **Options Explained:**
+  - `-z` or `--local-mode`: Runs the Chef client in local mode, which doesn't require a Chef Infra Server.
+  - `-r` or `--runlist`: Specifies the run list, which is a list of recipes and roles to be applied.
+
+**Note:** In practice, you typically run `chef-client` against remote nodes to configure them. However, in this tutorial, you are configuring the same node where your VS Code and terminal are running.
+
+---
+
+## Applying a Recipe to a Remote System
+
+To apply a recipe to a remote system, you can use the `knife ssh` command:
+
+```bash
+knife ssh IPADDRESS -m -x chef -P PWD 'sudo chef-client'
+```
+
+- **Options Explained:**
+  - `IPADDRESS`: The IP address of the remote node.
+  - `-m`: Executes the command on multiple nodes (useful when specifying ranges or groups).
+  - `-x chef`: Specifies the SSH username (`chef` in this case).
+  - `-P PWD`: Specifies the SSH password (`PWD` is the placeholder for the actual password).
+  - `'sudo chef-client'`: The command to run on the remote node, prefixed with `sudo` to execute with elevated privileges.
+
+---
+
+## Automating Chef Client in Production Environments
+
+**Note:** In a production environment where you need to configure and maintain many nodes or servers, you typically configure `chef-client` to run automatically at set intervals on the nodes.
+
+- **How It Works:**
+  - **Scheduled Runs:** `chef-client` is set up as a scheduled task (e.g., via cron on Linux systems) to run at regular intervals.
+  - **Chef Infra Server Check-In:**
+    - When `chef-client` runs, it checks in with the **Chef Infra Server**.
+    - It retrieves the latest cookbooks and configurations.
+    - It applies any updates or changes to the node.
+  - **Consistency and Compliance:**
+    - Ensures that all nodes are consistently configured.
+    - Helps maintain compliance with security policies and organizational standards.
+
+---
+
+By automating `chef-client` runs, your fleet of nodes will always be up to date with the latest configurations, making management more efficient and reducing the risk of configuration drift.
+
+---
+
+Feel free to incorporate this into your notes!
