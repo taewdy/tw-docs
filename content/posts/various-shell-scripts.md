@@ -8,7 +8,5 @@ date = 2024-09-28T13:54:31+10:00
 It will access a login url and get the token from the response.
 Use this in following curl commands
 
-```bash
 
-- link: [curl.sh](../assets/curl.sh)
-- 
+- link: [curl.sh](/script/curl.sh)
